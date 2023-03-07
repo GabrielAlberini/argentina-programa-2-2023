@@ -1,0 +1,28 @@
+/* Cascading style sheet => css */
+
+/* selector | propiedad | valor */
+
+body {
+  background-color: lightblue;
+}
+
+h1 { 
+  color: red; 
+}
+
+h2 {
+  color: yellow;
+}
+
+/* En css antecede un punto antes del nombre para ser utilizado como selector */
+.rojo {
+  color: red;
+}
+
+.subtitulo-2 {
+  color: white;
+}
+
+.subtitulo-3 {
+  color: grey;
+}
