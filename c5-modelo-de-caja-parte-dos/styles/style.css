@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 40px;
+}
+
+/* Un elemento de bloque ocupa el 100% del ancho del elemento padre */
+
+body {
+  /* ancho */
+  width: 50%;
+  /* background-color: red; */
+}
+
+header {
+  background-color: yellowgreen;
+}
+
+p {
+  background-color: teal;
+}
+
+h3 {
+  background-color: steelblue;
+}
+
+ul {
+  background-color: slateblue;
+}
+
+main {
+  background-color: violet;
+}
+
+footer {
+  background-color: tomato;
+}
+
+/* Un elemento inline a diferencia un elemento de bloque, ocupa solo el espacio del contenido */
+
+/* Por defecto en las imagenes trae display: inline; */
+img {
+  width: 150px;
+  background-color: brown;
+  display: block;
+}
+
+.imagen-diferente {
+  width: 500px;
+}
+
+span {
+  background-color: springgreen;
+  display: block;
+}
+

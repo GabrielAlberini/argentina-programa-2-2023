@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2017/09/25/13/12/puppy-2785074_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.biografia {
+  background-color: rgba(209, 66, 22, 0.695);
+  font-size: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  /* width: 50%; */
+  border: 2px solid black;
+  padding: 20px;
+  margin: 50px;
+}
+
+h2 {
+  text-align: end;
+  background-color: violet;
+}
