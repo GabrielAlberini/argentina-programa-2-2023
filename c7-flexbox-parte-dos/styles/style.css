@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .container {
+  padding: 30px;
+  background-color: tomato;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Estilos para items de grid */
+
+/* .grid-item {
+  background-color: thistle;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  width: 220px;
+  margin: 10px;
+} */
+
+/* selector | propiedad | valor */
+
+/* .grid-item img {
+  width: 100px;
+  border-radius: 50%;
+}  */
+
+body {
+  background-color: yellowgreen;
+  padding: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  background-color: violet;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grid-item {
+  background-color: tomato;
+  padding: 30px;
+  text-align: center;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.grid-item img {
+  width: 120px;
+  border-radius: 50%;
+}
