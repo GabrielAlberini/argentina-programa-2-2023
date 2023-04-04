@@ -14,7 +14,7 @@ linea
 
 let color = "rojo";
 
-//var, let, const
+//var, let, const => ECMAsciprt
 
 //buenas prácticas en nombres de variables
 
@@ -24,6 +24,7 @@ let color = "rojo";
 let gustoDeHeladoFavorito = "Kinoto al whisky"; //string
 
 //Tipos de datos
+
 //primitivos => representan directamente al dato
 //complejos => son una colección de datos
 
@@ -35,7 +36,7 @@ let numeroNegativo = -1;
 let numeroDecimal = 3.1;
 
 // boolean => representa un valor de verdad : true | false
-// undefined => ausencia de valor : undefined
+// undefined => ausencia de valor: undefined
 
 let variableSinValor = undefined;
 
@@ -60,8 +61,8 @@ let numeroDos = 20;
 
 console.log(numeroUno / numeroDos);
 
-let fraseUno = "Hola";
-let fraseDos = "mundo";
+let fraseUno = "Hola"; //Hola mundo
+let fraseDos = "todos mis compañeros de Argentina Programa"; // "hola" + " " + "mundo"
 
 //Concatenando => unir string
 console.log(fraseUno + " " + fraseDos);
@@ -69,10 +70,10 @@ console.log(fraseUno + " " + fraseDos);
 //Ocasionando error NaN
 console.log("Hola" * 3);
 
-//Interpolación => back sticks
+//Interpolación => back sticks / template string
 console.log(`${fraseUno} como anda ${fraseDos}`);
 
-console.log(fraseUno + " " + "como anda" + " " + fraseDos);
+console.log(fraseUno + " " + "como andan" + " " + fraseDos);
 
 console.log("Hola mundo como anda");
 
