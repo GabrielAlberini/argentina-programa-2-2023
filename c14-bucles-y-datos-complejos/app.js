@@ -94,19 +94,7 @@ for (let indice = 0; indice < 10; indice = indice + 1) {
   // console.log(`Vuelta numero ${indice}`);
 }
 
-const personajes = [
-  "Rick",
-  "Morty",
-  "Summer Smith",
-  "Beth Smith",
-  "GABO",
-  4,
-  5,
-  7,
-  8,
-  5,
-  3,
-];
+const personajes = ["Rick", "Morty", "Summer Smith", "Beth Smith", "GABO"];
 
 for (let indice = 0; indice < personajes.length; indice = indice + 1) {
   console.log(personajes[indice]); // Rick
